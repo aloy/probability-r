@@ -10,5 +10,4 @@
    * [Plotting](discrete/02-plotting.md)
    * [Calculating Probabilities](discrete/03-calculating_probabilities.md)
    * [Expectation and Variance](discrete/04_expectation_and_variance_md.md)
-* [Continuous Random Variables](continuous_random_variables.md)
 
