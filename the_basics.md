@@ -20,8 +20,11 @@ For most of you, the above command resulted in the error
 Error in library(discreteRV) : there is no package called ‘discreteRV’
 ```
 
-indicating that you have not yet installed the package. To do so enter the following command:
+indicating that you have not yet installed the package. To do so, enter the following command:
 
 ```{r}
 install.packages("discreteRV")
 ```
+
+Now that the `discreteRV` package is installed you can load the package.
+
