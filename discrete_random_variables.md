@@ -9,8 +9,7 @@ could write out own functions to calculate probabilities from PMFs, the
 
 ### Defining a random variable
 
-To begin, let's consider the random variable $X$ with PMF
-
+To begin, let's consider the random variable $$X$$ with PMF
 
 
 $$P(X = k) = \begin{cases}
