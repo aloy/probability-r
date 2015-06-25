@@ -8,7 +8,7 @@
 * [Discrete Random Variables](discrete_random_variables.md)
    * [Creating Random Variables](discrete/creating_random_variables.md)
    * [Plotting](discrete/plotting.md)
-   * Calculating Probabilities
+   * [Calculating Probabilities](discrete/calculating_probabilities.md)
    * Expectation and Variance
 * [Continuous Random Variables](continuous_random_variables.md)
 
