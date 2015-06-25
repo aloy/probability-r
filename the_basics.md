@@ -14,6 +14,14 @@ library(discreteRV)
 
 Note that you only need to load a package once during a session. I recommend loading all of the packages you think that you will use first, before continuing on with your work.
 
+For most of you, the above command resulted in the error
+
+```{r}
+Error in library(discreteRV) : there is no package called ‘discreteRV’
+```
+
+indicating that you have not yet installed the package. To do so enter the following command:
+
 ```{r}
 install.packages("discreteRV")
 ```
