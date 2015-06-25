@@ -6,7 +6,7 @@
    * [The Basics](intro-r/the_basics.md)
 * [Basic Simulation](basic_simulation.md)
 * [Discrete Random Variables](discrete_random_variables.md)
-   * Creating Random Variables
+   * [Creating Random Variables](discrete/creating_random_variables.md)
    * Plotting
    * Calculating Probabilities
    * Expectation and Variance
