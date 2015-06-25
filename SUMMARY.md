@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Introduction to R](.r/introductionto_r_md.md)
+* [Introduction to R](r/introductionto_r_md.md)
    * [R and Rstudio](r_and_rstudio.md)
    * [The Basics](the_basics.md)
 * [Basic Simulation](basic_simulation.md)
