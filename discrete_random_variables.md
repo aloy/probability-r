@@ -16,7 +16,9 @@ $$P(X = x) = \begin{cases}
 0.2 & \text{if }k=1\\
 0.3 & \text{if }k=2\\
 0.4 & \text{if }k=3
-\end{cases} $$
+\end{cases}$$
+
+
 
 
 
