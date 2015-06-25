@@ -9,5 +9,6 @@
    * Creating Random Variables
    * Plotting
    * Calculating Probabilities
+   * Expectation and Variance
 * [Continuous Random Variables](continuous_random_variables.md)
 
