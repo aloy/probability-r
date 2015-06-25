@@ -23,6 +23,7 @@ If you choose to work with the desktop version of RStudio, then you should do th
 
 Once you have completed the above steps, you should be able to launch RStudio.
 
+
 ## Logging onto the Server
 
 If you choose to work with the server version of RStudio, you can log on with your LU credentials at https://rstudio.lawrence.edu/auth-sign-in (remember that you must be on campus). 
