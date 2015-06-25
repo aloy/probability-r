@@ -27,3 +27,13 @@ Once you have completed the above steps, you should be able to launch RStudio.
 ## Logging onto the Server
 
 If you choose to work with the server version of RStudio, you can log on with your LU credentials at https://rstudio.lawrence.edu/auth-sign-in (remember that you must be on campus). 
+
+## RStudio's Layout
+
+Now that you are able to open RStudio, you need to understand the program's basic layout. The first time you open Rstudio there are three panes:
+
+1. The **console**
+2. The environment/history pane
+3. The file/plots/packages/help pane
+
+In addition to those, RStudio provides a built-in text editor that allows you to compose text files, R scripts (more on these later), Rmarkdown files (more on these later), and a few others.

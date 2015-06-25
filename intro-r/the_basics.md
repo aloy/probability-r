@@ -26,5 +26,15 @@ indicating that you have not yet installed the package. To do so, enter the foll
 install.packages("discreteRV")
 ```
 
-Now that the `discreteRV` package is installed you can load the package.
+Now that the `discreteRV` package is installed you can load the package. When I load this package on my machine I see the following message
+
+```{r}
+Attaching package: ‘discreteRV’
+
+The following object is masked from ‘package:base’:
+
+    %in%
+```
+
+Even though the letters are displayed in red in the console, don't worry, this is just an informational message. In R if something seriously breaks it will be labeled as an `Error`.
 
