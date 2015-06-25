@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Introduction to R
+* [Introduction to R](introduction_to_r.md)
 
