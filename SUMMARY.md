@@ -11,5 +11,6 @@
    * [Calculating Probabilities](discrete/03-calculating_probabilities.md)
    * [Expectation and Variance](discrete/04_expectation_and_variance_md.md)
    * [Functions of Random Variables](discrete/05_functions_of_random_variables.md)
+       * 06_Named
 * [Continuous Random Variables](continuous_random_variables.md)
 
