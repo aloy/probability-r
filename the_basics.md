@@ -1,6 +1,9 @@
 # Working in the Console
 
 
-# Installing Packages
 
+# Utilizing Packages
 
+```{r}
+library()
+```
