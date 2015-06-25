@@ -2,7 +2,6 @@
 
 To begin, let's consider the random variable $$X$$ with PMF
 
-
 $$P(X = k) = \begin{cases}
 0.1 & \text{if }k=0\\
 0.2 & \text{if }k=1\\
