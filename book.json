@@ -1,0 +1,6 @@
+{
+    "plugins": [
+        "mathjax@0.0.6"
+    ],
+    "pluginsConfig": {}
+}
