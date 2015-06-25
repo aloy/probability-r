@@ -11,12 +11,13 @@ could write out own functions to calculate probabilities from PMFs, the
 
 To begin, let's consider the random variable $$X$$ with PMF
 
-$$P(X = x) = \begin{cases}
+
+
+$$P(X = k) = \begin{cases}
 0.1 & \text{if }k=0\\
 0.2 & \text{if }k=1\\
 0.3 & \text{if }k=2\\
-0.4 & \text{if }k=3
-\end{cases}$$
+0.4 & \text{if }k=3 \end{cases}$$
 
 After loading the `discreteRV` package, we can define the random variable X 
 using the command
