@@ -2,11 +2,12 @@
 
 To begin, let's consider the random variable $$X$$ with PMF
 
-$$P(X = k) = \begin{cases}
-0.1 & \text{if }k=0\\
-0.2 & \text{if }k=1\\
-0.3 & \text{if }k=2\\
-0.4 & \text{if }k=3 \end{cases}$$
+$$k$$ | $$P(X = k)$$
+----- | -------------
+0     | 0.1
+1     | 0.2
+2     | 0.3
+3     | 0.4
 
 After loading the `discreteRV` package, we can define the random variable X 
 using the command
