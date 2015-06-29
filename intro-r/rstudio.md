@@ -11,6 +11,11 @@ Lawrence does have an RStudio server available for students enrolled in my class
 
 ## Installation
 
+Below are the installation instructions for Rstudio. If you prefer to watch a video, I recommend the two tutorials listed below:
+
+* ![Installing R on Windows](https://youtu.be/Ohnk9hcxf9M)
+* ![Installing R on a Mac](https://youtu.be/uxuuWXU-7UQ)
+
 If you choose to work with the desktop version of RStudio, then you should do the following:
 
 1. Go to http://cran.r-project.org/
