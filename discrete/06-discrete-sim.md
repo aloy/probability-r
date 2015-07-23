@@ -61,10 +61,12 @@ result1
 
 ```
 poll1
-    Bush   Carson Christie     Cruz  Fortina   Graham Huckabee   Jindal   Kasich 
-   0.150    0.111    0.023    0.044    0.009    0.006    0.053    0.012    0.029 
-  Pataki     Paul    Perry    Rubio Santorum    Trump   Walker 
-   0.015    0.076    0.026    0.076    0.026    0.243    0.100 
+    Bush   Carson Christie     Cruz  Fortina   Graham 
+   0.150    0.111    0.023    0.044    0.009    0.006 
+Huckabee   Jindal   Kasich   Pataki     Paul    Perry 
+   0.053    0.012    0.029    0.015    0.076    0.026 
+   Rubio Santorum    Trump   Walker 
+   0.076    0.026    0.243    0.100 
 ```
 
 Fox News says that the top ten candidates will be invited to the debate. To 
@@ -76,10 +78,12 @@ sort(result1, decreasing = TRUE)
 
 ```
 poll1
-   Trump     Bush   Carson   Walker     Paul    Rubio Huckabee     Cruz   Kasich 
-   0.243    0.150    0.111    0.100    0.076    0.076    0.053    0.044    0.029 
-   Perry Santorum Christie   Pataki   Jindal  Fortina   Graham 
-   0.026    0.026    0.023    0.015    0.012    0.009    0.006 
+   Trump     Bush   Carson   Walker     Paul    Rubio 
+   0.243    0.150    0.111    0.100    0.076    0.076 
+Huckabee     Cruz   Kasich    Perry Santorum Christie 
+   0.053    0.044    0.029    0.026    0.026    0.023 
+  Pataki   Jindal  Fortina   Graham 
+   0.015    0.012    0.009    0.006 
 ```
 
 Fox News will average the results from the five most recent polls, so in order
@@ -145,10 +149,12 @@ sort(round(avg.support, 3), decreasing = TRUE)
 ```
 
 ```
-   Trump     Bush   Walker     Paul     Cruz Huckabee    Rubio   Carson    Perry 
-   0.202    0.177    0.125    0.090    0.069    0.069    0.069    0.064    0.033 
-Christie Santorum   Kasich   Jindal  Fortina   Pataki   Graham 
-   0.029    0.026    0.017    0.015    0.009    0.004    0.002 
+   Trump     Bush   Walker     Paul     Cruz Huckabee 
+   0.202    0.177    0.125    0.090    0.069    0.069 
+   Rubio   Carson    Perry Christie Santorum   Kasich 
+   0.069    0.064    0.033    0.029    0.026    0.017 
+  Jindal  Fortina   Pataki   Graham 
+   0.015    0.009    0.004    0.002 
 ```
 
 Thus, in our single simulation, we found that Trump, Bush, Walker, Paul,
@@ -192,8 +198,10 @@ sort(round(avgs, 3), decreasing = TRUE)
 ```
 
 ```
-   Trump     Bush   Walker     Paul    Rubio   Carson Huckabee     Cruz Christie 
-   0.204    0.174    0.119    0.078    0.077    0.073    0.067    0.063    0.034 
-   Perry Santorum   Kasich   Jindal  Fortina   Graham   Pataki 
-   0.029    0.024    0.022    0.017    0.009    0.005    0.005 
+   Trump     Bush   Walker     Paul    Rubio   Carson 
+   0.204    0.174    0.119    0.078    0.077    0.073 
+Huckabee     Cruz Christie    Perry Santorum   Kasich 
+   0.067    0.063    0.034    0.029    0.024    0.022 
+  Jindal  Fortina   Graham   Pataki 
+   0.017    0.009    0.005    0.005 
 ```
