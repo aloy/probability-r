@@ -8,13 +8,13 @@ determine the participants of the first G.O.P. debate of the 2016 presidential
 election cylce. Now that we understand how to define discrete random variables, 
 we can replicate their results in R.
 
-The writers averaged five recent polls, [the most recent ABC News/Washington Post poll](http://elections.huffingtonpost.com/pollster/polls/abc-post-22400) 
+The writers averaged five recent polls, the most recent of which is an [ABC News/Washington Post poll](http://elections.huffingtonpost.com/pollster/polls/abc-post-22400) 
 (which ended on July 17), to find the "true" probability that a randomly selected 
-registered Republican will vote for candidate $X$. (This is a strong assumption, 
+registered Republican will vote for candidate $$X$$. (This is a strong assumption, 
 and certainly needs to be taken with a grain of salt!) This results in the below
 PMF:
 
-Candidate ($x$) | $P(X = x)$
+Candidate ($$x$$) | $$P(X = x)$$
 --------------- | ----------
 Trump           | .168
 Bush            | .144
@@ -93,7 +93,7 @@ polls <- replicate(5, rsim(X, n = 341))
 
 Note that the first argument given to the replicate function is the number
 of time you wish to replicate the function specified in the second argument. 
-The above command results in a 341 $\times$ 5 matrix of results where each
+The above command results in a 341 $$\times$$ 5 matrix of results where each
 column represents a simulated poll. To calculate the support for each candidate
 for each poll, we can use a `for` loop to iterate through each column and use
 the `table` command, similar to what we did above.
@@ -183,7 +183,7 @@ function. Assume that we would like to run 1000 simulations, then we would run
 polls1000 <- replicate(1000, simulate5polls())
 ```
 
-which returns a 341 $\times$ 1000 matrix. Then we simply need to average over
+which returns a 341 $$\times$$ 1000 matrix. Then we simply need to average over
 the rows of the matrix to obtain the average of the 1000 simulated results.
 
 ```
